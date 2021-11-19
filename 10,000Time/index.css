@@ -9,6 +9,16 @@ body {
     
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main_contents {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .tit_background_img {
     background-image: url(./img/time.png);
@@ -67,6 +77,10 @@ body {
     font-weight: bold;
 }
 
+.programming {
+    position: static;
+}
+
 
 .main_programming {
     margin-top:50px ;
@@ -92,19 +106,106 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
-    width: 565px;
-    height: 66px;
-
-
+    width: 100%;
+    height: 100%;
+    
 }
 
 .btn .btn_result {
-    width: 100%;
-    height: 100%;
+    display: inline-block;
+    margin-right: 7px;
+    width: 565px;
+    height: 66px;
     background-color: #FCEE21;
     border-radius: 56px;
     color:#5B2386;
     font-size: 22px;
     font-weight: bold;
+}
 
+.btn span {
+    display: inline-block;
+    position: static;
+}
+.btn span img {
+    width:64px;
+    height:72px;
+    transform: rotate(-10deg);
+    position: relative;
+    top:33px;
+    left:0px;
+}
+
+.become_programming {
+    margin-top: 147px;
+    width: 665px;
+    height: 72px;
+    font-size: 20px;
+    color: white;
+}
+
+.become_programming_result {
+    width: 347px;
+    height: 72px;
+    font-size: 60px;
+    color:white;
+}
+
+.tranning_time {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 72px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.tranning_time_result {
+    width: 168px;
+    height: 72px;
+    font-size: 60px;
+}
+
+.foot_btn {
+    margin-top: 100px;
+}
+.foor_btn_tranning {
+    width: 356px;
+    height: 66px;
+    background-color: #FCEE21;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #5B2386;
+    font-weight: bold;
+}
+.foot_btn_share {
+    width: 191px;
+    height: 66px;
+    color: #5B2386;
+    font-size: 24px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.footer_img {
+    margin-top: 90px;
+    display: inline-block;
+    width: 150px;
+    height: auto;
+
+}
+
+.footer_cite {
+    margin-top: 20px;
+    display: block;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+address a {
+    display: inline-block;
+    margin-top: 50px;
+    color:white;
+    text-decoration: none;
 }
