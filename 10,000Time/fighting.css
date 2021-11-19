@@ -1,0 +1,46 @@
+body {
+}
+
+body div {
+    text-align: center;
+    margin:50px auto 0px auto;
+}
+
+h1 {
+    color: #5B2386;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+h4 {
+    color: #5B2386;
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+
+img {
+    margin: 0 auto 0 auto;
+    width: 433px;
+    height: 337px;
+    display: block;
+}
+
+button {
+    margin-top: 20px;
+    display: inline-block;
+    width: 508px;
+    height: 66px;
+    color:#5B2386;
+    background-color: #FCEE21;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 20px;
+    color: gray;
+    font-size: 19px;
+}
