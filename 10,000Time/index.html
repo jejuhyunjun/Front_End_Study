@@ -6,65 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1만 시간의 법칙 (11월 16일 실습)</title>
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./index.css">
+    <!-- <link rel="stylesheet" href="./index.css"> -->
+    <link rel="stylesheet" href="./index_1.css">
 </head>
 <body>
     <header>
-        <h1 class="tit_background_img"><img class="tit_img" src="./img/title.png" alt="1만 시간의 법칙"></h1>
+        <div class="top_title">
+            <img src="./img/time.png" class="top_title_clock">
+            <div class="top_title_time">
+                <img class="tit_img" src="./img/title.png" alt="1만 시간의 법칙">
+            </div>
+        </div>
     </header>
     <main id="main">
         <section id="main_contents">
-            <div class="main_fir_img">
+            <div class="main_first_img">
                 <img  src="./img/txt.png" alt="연습은 어제의 당신보다 당신을 더 낫게 만든다.">
             </div>
 
-            <div class="main_mid">
-                <div class="mian_sentence">
-                    <p>1만 시간의 법칙</p>은 <br>
-                    어떤 분야의 전문가가 되기 위해서는 <br>
-                    최소한 1만 시간의 훈련이 필요하다는 법칙이다. 
+            <div class="main_sentence">
+                <img src="./img/txtmark.png" alt="">
+                <div class="mian_sentence_mean">
+                    <p class="main_sentence_mean_value"><span class="main_sentence_mean_value_time">1만 시간의 법칙</span>은 <br>
+                     어떤 분야의 전문가가 되기 위해서는 <br>
+                    최소한 1만 시간의 훈련이 필요하다는 법칙이다. <br> 
+                    </p>
                 </div>
             </div>
-
-            <div class="programming">
-                <p class="main_programming "> 
-                    나는 
-                    <label for="gamming"></label>
-                    <input type="text" placeholder="예)프로그래밍" id="gamming"> 
-                    전문가가 될 것이다. 
-                </p>
-                <p class="main_programming maing_grogramming_padding"> 
-                    그래서 앞으로 매일 하루에 
-                    <label for="study_time"></label>
-                    <input type="number" placeholder="예)5시간" id="study_time"> 
-                    시간씩 훈련할 것이다.
-                </p>
+            <!-- 중간 input 시작 -->
+            <div class="programming_1">
+                <p class="main_programming ">나는 </p>
+                <input type="text" placeholder="예)프로그래밍" id="gamming"> 
+                <p class="main_programming">전문가가 될 것이다.</p>
             </div>
+                
+            <div class="programming_2">
+                <p class="main_programming_2"> 
+                    그래서 앞으로 매일 하루에 
+                </p>
+                <input type="number" placeholder="예)5시간" id="study_time"> 
+                <p>시간씩 훈련할 것이다.</p>
+                
+            </div>
+
+                <!-- Javascript 실행 버튼 -->
             
-            <div class="btn">
-                <button type="submit" class="btn_result">
+            <div class="js_btn">
+                <button type="submit" id="btn_result">
                     나는 며칠 동안 훈련을 해야 1만 시간이 될까?
                 </button>
-                <span><img src="./img/Frame 11.png" alt="클릭하는 손"></span>
-            </div>
-            <div class="become_programming">
-                당신은 
-                <span class="become_programming_result"> "프로그래밍" </span> 
-                전문가가되기 위해서
-            </div>
-            <div class="tranning_time">
-                대략 
-                <span class="tranning_time_result"> "54684" </span> 
-                일 이상 훈련하셔야 합니다. :)
+                <img src="./img/Frame 11.png" alt="클릭하는 손">
             </div>
 
-            <div class="foot_btn">
-                <button class="foor_btn_tranning">훈련하러 가기 GO!GO!</button>
-                <button class="foot_btn_share">공유하기</button>
+            <div class="become_programming">
+                <p>당신은</p>
+                <span id="become_programming_result">프로그래밍</span> 
+                <p> 전문가가되기 위해서</p>
             </div>
+
+            <div class="tranning_time">
+                <p>대략</p> 
+                <span id="tranning_time_result"> 54684 </span> 
+                <p> 일 이상 훈련하셔야 합니다. :)</p>
+            </div>
+
+            <!-- <div class="foot_btn">
+                <button id="foot_btn_tranning"><a href="http://127.0.0.1:5500/10,000Time/fighting.html" target="blank" >훈련하러 가기 GO!GO!</a> </button>
+                <button class="foot_btn_share">공유하기</button>
+            </div> -->
         </section>
     </main>
-    <footer>
+    <!-- <footer>
             <img class="footer_img" src="./img/weniv.png" alt="Weniv">
             <cite class="footer_cite">
                 ※ 본 서비스 내 이미지 및 컨텐츠의 저작권은 주식회사 WeNiv에 있습니다. <br>
@@ -73,6 +85,6 @@
                 <a href="http://paullab.co.kr/10000hours.html">클릭!</a>
             </address>
 
-    </footer>
+    </footer> -->
 </body>
 </html>

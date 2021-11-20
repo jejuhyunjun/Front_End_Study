@@ -4,9 +4,11 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    /* width: 1920px; */
     height: 2000px;
-    
+}
+
+a {
+    text-decoration: none;
 }
 
 .main {
@@ -77,32 +79,39 @@ body {
     font-weight: bold;
 }
 
+/* 중간 input 시작 */
+
 .programming {
+    display: flex;
     position: static;
-}
-
-
-.main_programming {
+    /* width: 100%; */
+    /* height: 80px; */
     margin-top:50px ;
-    font-size: 22px;
+    font-size: 26px;
     color: white;
-    position: static;
 }
 
-.main_programming input {
+/* .main_programming {
+    position: static;
+} */
+
+.programming input {
+    display: inline-block;
     width: 200px;
-    height: 40px;
-    text-align: center; 
     color:#BABCBE;
     border-radius: 10px;
-    font-size: 22px;
+    padding:15px 20px;
+    font-size: 26px;
 }
 
-.programming .maing_grogramming_padding {
+/* .programming .maing_grogramming_padding {
     margin-top: 20px;
-}
+} */
 
-.btn {
+
+/* 중간 javascript 실행 버튼  */
+
+/* .btn {
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
@@ -111,7 +120,7 @@ body {
     
 }
 
-.btn .btn_result {
+.btn #btn_result {
     display: inline-block;
     margin-right: 7px;
     width: 565px;
@@ -144,9 +153,9 @@ body {
     color: white;
 }
 
-.become_programming_result {
+#become_programming_result {
     width: 347px;
-    height: 72px;
+    height: 70px;
     font-size: 60px;
     color:white;
 }
@@ -161,7 +170,7 @@ body {
 
 }
 
-.tranning_time_result {
+#tranning_time_result {
     width: 168px;
     height: 72px;
     font-size: 60px;
@@ -170,7 +179,8 @@ body {
 .foot_btn {
     margin-top: 100px;
 }
-.foor_btn_tranning {
+
+#foot_btn_tranning {
     width: 356px;
     height: 66px;
     background-color: #FCEE21;
@@ -179,6 +189,7 @@ body {
     color: #5B2386;
     font-weight: bold;
 }
+
 .foot_btn_share {
     width: 191px;
     height: 66px;
@@ -208,4 +219,4 @@ address a {
     margin-top: 50px;
     color:white;
     text-decoration: none;
-}
+} */
