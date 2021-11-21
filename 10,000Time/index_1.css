@@ -114,13 +114,16 @@ header {
     border-radius: 10px;
 }
 
+/* Input 끝 Javascropt 관련 태그 css */
+
 .js_btn {
     display: inline-block;
+    width: 100%;
     align-items: center;
     margin-top: 90px;
 }
 
-.js_btn button {
+.js_btn #btn_result {
     margin-top: 50px;
     width: 570px;
     height: 55px;
@@ -131,6 +134,10 @@ header {
     font-size: 24px;
     font-weight: 1000;
     position: relative;
+}
+
+#btn_result:hover {
+    cursor: pointer;
 }
 
 .js_btn img {
