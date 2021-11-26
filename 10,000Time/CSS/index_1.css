@@ -158,7 +158,7 @@ header {
     color: white;
 }
 
-.become_programming span {
+.become_programming> .become_programming_result {
     font-size: 72px;
     padding:0 20px 0;
 }
@@ -172,7 +172,7 @@ header {
     color: white;
 }
 
-#tranning_time_result {
+.tranning_time_result {
     font-size: 72px;
     padding:0 20px 0;
 }
