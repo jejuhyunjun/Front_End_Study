@@ -1,0 +1,222 @@
+body {
+    background-color: #5B2386;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 2000px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main_contents {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tit_background_img {
+    background-image: url(./img/time.png);
+    background-size: cover;
+    width: 261px;
+    height: 265px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.tit_img {
+    margin-top: 60px;
+    position: absolute;
+    right:-160px;
+    width: 564px;
+    height: 112px;
+}
+
+.main_fir_img {
+    margin-top: 66px;
+    width: 486px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.main_mid {
+    margin-top: 78px;
+    background-image: url(./img/txtmark.png);
+    background-size: cover;
+    width: 493px;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.mian_sentence {
+    display: inline-block;
+    color:white;
+    font-size: 16px;
+    line-height: 30px;
+    position: absolute;
+    top:-20px;
+    left:75px;
+    
+}
+
+.mian_sentence p {
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* 중간 input 시작 */
+
+.programming {
+    display: flex;
+    position: static;
+    /* width: 100%; */
+    /* height: 80px; */
+    margin-top:50px ;
+    font-size: 26px;
+    color: white;
+}
+
+/* .main_programming {
+    position: static;
+} */
+
+.programming input {
+    display: inline-block;
+    width: 200px;
+    color:#BABCBE;
+    border-radius: 10px;
+    padding:15px 20px;
+    font-size: 26px;
+}
+
+/* .programming .maing_grogramming_padding {
+    margin-top: 20px;
+} */
+
+
+/* 중간 javascript 실행 버튼  */
+
+/* .btn {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.btn #btn_result {
+    display: inline-block;
+    margin-right: 7px;
+    width: 565px;
+    height: 66px;
+    background-color: #FCEE21;
+    border-radius: 56px;
+    color:#5B2386;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.btn span {
+    display: inline-block;
+    position: static;
+}
+.btn span img {
+    width:64px;
+    height:72px;
+    transform: rotate(-10deg);
+    position: relative;
+    top:33px;
+    left:0px;
+}
+
+.become_programming {
+    margin-top: 147px;
+    width: 665px;
+    height: 72px;
+    font-size: 20px;
+    color: white;
+}
+
+#become_programming_result {
+    width: 347px;
+    height: 70px;
+    font-size: 60px;
+    color:white;
+}
+
+.tranning_time {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 72px;
+    font-size: 20px;
+    color: white;
+
+}
+
+#tranning_time_result {
+    width: 168px;
+    height: 72px;
+    font-size: 60px;
+}
+
+.foot_btn {
+    margin-top: 100px;
+}
+
+#foot_btn_tranning {
+    width: 356px;
+    height: 66px;
+    background-color: #FCEE21;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #5B2386;
+    font-weight: bold;
+}
+
+.foot_btn_share {
+    width: 191px;
+    height: 66px;
+    color: #5B2386;
+    font-size: 24px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.footer_img {
+    margin-top: 90px;
+    display: inline-block;
+    width: 150px;
+    height: auto;
+
+}
+
+.footer_cite {
+    margin-top: 20px;
+    display: block;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+address a {
+    display: inline-block;
+    margin-top: 50px;
+    color:white;
+    text-decoration: none;
+} */

@@ -1,0 +1,232 @@
+body {
+    background-color: #5B2386;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.top_title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: center;
+
+}
+
+.top_title_clock {
+    width: 250px;
+    height: auto;
+    position: relative;
+}
+
+.top_title_time img {
+    width: 600px;
+    height: auto;
+    position: relative;
+    top:-190px;
+}
+
+#main_contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_first_img img {
+    width: 500px;
+    height: auto;
+    position: relative;
+    top:-50px;
+}
+
+.main_sentence {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_sentence img {
+    width: 500px;
+    height: 96px;
+}
+
+.main_sentence .mian_sentence_mean {
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 1000;
+    position: absolute;
+    top:490px
+
+}
+
+.main_sentence_mean_value_time {
+    font-size: 29px;
+    font-weight: bold;
+}
+/* 상단 이미지 작업 종료 및 중간 input 시작 */
+
+.programming_1 {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 57px;
+    font-size: 24px;
+    color:white;
+    font-weight: bold;
+}
+
+.programming_1 input {
+    width: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 20px;
+    margin: 0 10px 0;
+    border-radius: 10px;
+}
+
+.programming_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 24px;
+    color:white;
+    font-weight: bold;
+}
+
+.programming_2 input {
+    width: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 20px;
+    margin: 0 10px 0;
+    border-radius: 10px;
+}
+
+/* Input 끝 Javascropt 관련 태그 css */
+
+.js_btn {
+    display: inline-block;
+    width: 100%;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.js_btn #btn_result {
+    margin-top: 50px;
+    width: 570px;
+    height: 55px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: #FCEE21;
+    color: #5B2386;
+    font-size: 24px;
+    font-weight: 1000;
+    position: relative;
+}
+
+#btn_result:hover {
+    cursor: pointer;
+}
+
+.js_btn img {
+    margin-top: 50px;
+    width: 64px;
+    height: 72px;
+    position: absolute;
+}
+
+.become_programming {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    width: 700px;
+    height: 72px;
+    font-size: 24px;
+    font-weight: 1000;
+    color: white;
+}
+
+.become_programming> .become_programming_result {
+    font-size: 72px;
+    padding:0 20px 0;
+}
+
+.tranning_time {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 1000;
+    color: white;
+}
+
+.tranning_time_result {
+    font-size: 72px;
+    padding:0 20px 0;
+}
+
+.foot_btn {
+    margin-top: 100px;
+}
+
+#foot_btn_tranning {
+    width: 356px;
+    height: 56px;
+    background-color: #FCEE21;
+    color:#5B2386;
+    font-size: 24px;
+    border-radius: 50px;
+    font-weight: 1000;
+}
+
+#foot_btn_tranning a {
+    text-decoration: none;
+}
+
+.foot_btn_share {
+    background-color: white;
+    width: 191px;
+    height: 66px;
+    color:#5B2386;
+    font-size: 24px;
+    border-radius: 50px;
+    font-weight: 1000;
+    margin-left: 19px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    margin-top: 130px;
+    width: 125px;
+    height: auto;
+}
+
+footer cite {
+    margin-top: 20px;
+    color: white;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+
+
+
+
